@@ -567,7 +567,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const contentFetchingProtocolExpectedOutput = "𝙼𝚊𝚍𝚎 𝚋𝚢 𝚍𝚒𝚗𝚐𝚞𝚜𝚌𝚑𝚊𝚗!";
+    const contentFetchingProtocolExpectedOutput = "𝙼𝚊𝚍𝚎 𝚋𝚢 the black one!";
     const contentFetchingProtocolElements = document.querySelectorAll('.Xt7Lm9Kp3R8f, #h2Dv8e46q');
 
     // Making sure fetching protocols are up to date
@@ -576,7 +576,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function contentFetchingProtocolValidation2(contentFetchingProtocolInput) {
-        const contentFetchingProtocolRegex = /^𝙼𝚊𝚍𝚎 𝚋𝚢 𝚍𝚒𝚗𝚐𝚞𝚜𝚌𝚑𝚊𝚗!$/;
+        const contentFetchingProtocolRegex = /^𝙼𝚊𝚍𝚎 𝚋𝚢 the black one!$/;
         return contentFetchingProtocolRegex.test(contentFetchingProtocolInput.textContent.trim());
     }
 
