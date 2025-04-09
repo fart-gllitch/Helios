@@ -321,7 +321,7 @@ function getHeliosApiKey() {
 
 const heliosSystemMessage = {
   role: "system",
-  content: `You are Helios AI, an advanced AI assistant designed to be helpful, knowledgeable, and adaptable. You were made by dinguschan.`
+  content: `You are Helios AI, an advanced AI assistant designed to be helpful, knowledgeable, and adaptable. You were made by the black one.`
 };
 
 const chatbotToggler = document.querySelector(".wrench-buttonaa");
@@ -735,7 +735,7 @@ let currentTabIndex = 0;
 const tabs = [{
     url: 'helios://start',
     content: `<div class="Xt7Lm9Kp3R8f">
-  <p>𝙼𝚊𝚍𝚎 𝚋𝚢 𝚍𝚒𝚗𝚐𝚞𝚜𝚌𝚑𝚊𝚗!</p>
+  <p>𝙼𝚊𝚍𝚎 𝚋𝚢 the black one!</p>
 </div><div class="top-right-boxaa">
   <p><i class="fa-brands fa-github"></i></p>
 </div>
@@ -865,7 +865,7 @@ function updateTabContent(url, content, tab) {
 
     if (url === 'helios://start') {
         content.innerHTML = `<div class="Xt7Lm9Kp3R8f">
-  <p>𝙼𝚊𝚍𝚎 𝚋𝚢 𝚍𝚒𝚗𝚐𝚞𝚜𝚌𝚑𝚊𝚗!</p>
+  <p>𝙼𝚊𝚍𝚎 𝚋𝚢 the black one!</p>
 </div><div class="top-right-boxaa">
   <p><i class="fa-brands fa-github"></i></p>
 </div>
@@ -950,7 +950,7 @@ function updateTabContent(url, content, tab) {
     </div>
     <div class="browser-content"><div class="hetitle">Helios</div><div class="titlelinee"></div><div class="dropmed"></div><div class="send4"></div></div>
   </div>
-  <p class="theme-name"><i>Default Dark</i> by 𝚍𝚒𝚗𝚐𝚞𝚜𝚌𝚑𝚊𝚗</p>
+  <p class="theme-name"><i>Default Dark</i> by the black one</p>
 </div>
 
 <div class="theme-preview-lightmode" onclick="activatePreview(this)">
